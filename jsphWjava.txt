@@ -1,0 +1,19 @@
+welcome.jsp
+
+<html>
+	<head>
+		<title>Welcome</title>
+	</head>
+	<body>
+		<h1>Hello World.</h1>
+	</body>
+</html>
+web.xml
+
+<web-app>
+ 
+  <welcome-file-list>
+          <welcome-file>welcome.jsp</welcome-file>
+  </welcome-file-list>	
+ 
+</web-app>
